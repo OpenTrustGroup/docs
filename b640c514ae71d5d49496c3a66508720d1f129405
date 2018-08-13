@@ -1,0 +1,234 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8cfec896_e3e90b3d",
+        "filename": "gzos/system_arch.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1012985
+      },
+      "writtenOn": "2018-08-13T06:25:06Z",
+      "side": 1,
+      "message": "data encryption/decryption",
+      "range": {
+        "startLine": 5,
+        "startChar": 333,
+        "endLine": 5,
+        "endChar": 348
+      },
+      "revId": "b640c514ae71d5d49496c3a66508720d1f129405",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8eccd879_de31af6f",
+        "filename": "gzos/system_arch.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1012985
+      },
+      "writtenOn": "2018-08-13T06:25:06Z",
+      "side": 1,
+      "message": "(so-called **Secure World**)  \u003d\u003e (can be deleted)",
+      "range": {
+        "startLine": 5,
+        "startChar": 211,
+        "endLine": 5,
+        "endChar": 239
+      },
+      "revId": "b640c514ae71d5d49496c3a66508720d1f129405",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1d3d6c73_0281c090",
+        "filename": "gzos/system_arch.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1012985
+      },
+      "writtenOn": "2018-08-13T06:25:06Z",
+      "side": 1,
+      "message": "be used for executing",
+      "range": {
+        "startLine": 5,
+        "startChar": 249,
+        "endLine": 5,
+        "endChar": 267
+      },
+      "revId": "b640c514ae71d5d49496c3a66508720d1f129405",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "69a8123a_c14fced5",
+        "filename": "gzos/system_arch.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1012985
+      },
+      "writtenOn": "2018-08-13T06:25:06Z",
+      "side": 1,
+      "message": "an isolated and secure",
+      "range": {
+        "startLine": 5,
+        "startChar": 176,
+        "endLine": 5,
+        "endChar": 188
+      },
+      "revId": "b640c514ae71d5d49496c3a66508720d1f129405",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a16329c0_c8b87f7e",
+        "filename": "gzos/system_arch.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1012985
+      },
+      "writtenOn": "2018-08-13T06:25:06Z",
+      "side": 1,
+      "message": "Rights",
+      "range": {
+        "startLine": 5,
+        "startChar": 358,
+        "endLine": 5,
+        "endChar": 363
+      },
+      "revId": "b640c514ae71d5d49496c3a66508720d1f129405",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f7f41d7f_dc428ec1",
+        "filename": "gzos/system_arch.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1012985
+      },
+      "writtenOn": "2018-08-13T06:25:06Z",
+      "side": 1,
+      "message": "A system can build a TEE via the following hardware or software technologies:",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 51
+      },
+      "revId": "b640c514ae71d5d49496c3a66508720d1f129405",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d8c20fff_4e589641",
+        "filename": "gzos/system_arch.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1012985
+      },
+      "writtenOn": "2018-08-13T06:25:06Z",
+      "side": 1,
+      "message": "* Hardware or software [virtualization technologies] (https://en.wikipedia.org/wiki/Virtualization)",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 62
+      },
+      "revId": "b640c514ae71d5d49496c3a66508720d1f129405",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fcc4bea4_323f7e80",
+        "filename": "gzos/system_arch.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1012985
+      },
+      "writtenOn": "2018-08-13T06:25:06Z",
+      "side": 1,
+      "message": "the system should provide isolated and dedicated physical resources (e.g. CPU resource, memory, IRQ, I/O ports, timers..., etc.) for TEE to executing trusted applications or hosting a trusted OS.",
+      "range": {
+        "startLine": 14,
+        "startChar": 36,
+        "endLine": 14,
+        "endChar": 246
+      },
+      "revId": "b640c514ae71d5d49496c3a66508720d1f129405",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b86d8e31_c1e705ed",
+        "filename": "gzos/system_arch.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1012985
+      },
+      "writtenOn": "2018-08-13T06:25:06Z",
+      "side": 1,
+      "message": "Also, the system should provide a communication mechanism between REE(Rich Execution Environment, a non-secure computing domain) and TEE for client applications(executed in REE) to issue commands to trusted applications.",
+      "range": {
+        "startLine": 14,
+        "startChar": 247,
+        "endLine": 14,
+        "endChar": 393
+      },
+      "revId": "b640c514ae71d5d49496c3a66508720d1f129405",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3b39ee3c_e4a6313a",
+        "filename": "gzos/system_arch.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1012985
+      },
+      "writtenOn": "2018-08-13T06:25:06Z",
+      "side": 1,
+      "message": "In GzOS design, the communication protocol between REE and TEE is divided into three layers:",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 110
+      },
+      "revId": "b640c514ae71d5d49496c3a66508720d1f129405",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
