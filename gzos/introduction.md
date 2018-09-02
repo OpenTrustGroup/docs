@@ -1,3 +1,0 @@
-# GzOS Introduction
-
-## TBD
