@@ -1,84 +1,63 @@
 # Quick Setup Guide
 
-## Prerequest
+## Prerequisite
 
-The development environment only support Linux for now. If you want to do development works on Windows or macOS, please use [GzOS development docker](https://github.com/OpenTrustGroup/gzos_dev_docker).
+The development environment only support Linux for now. If your host OS is Windows or macOS, please use [GzOS development docker](https://github.com/OpenTrustGroup/gzos_dev_docker).
 
-The development environment is not only for GzOS, but also for Trusty TEE.
+The development environment not only support GzOS, but also support [Google Trusty TEE](https://source.android.com/security/trusty).
 
-* [Go To Trusty Dev Environment Setup](#trusty-dev-environment-setup)
+## Dev Environment Setup
 
-## GzOS Dev Environment Setup
-
-### Check out source code
+### Download Source Code
 
 ```shell
 curl -s https://raw.githubusercontent.com/OpenTrustGroup/scripts/gzos/bootstrap | bash -s gzos [stable|dev]
+
+alias otg='fx vendor otg'
+cd gzos_stable # (or cd gzos_dev)
 ```
 **Notes:** gzos_dev is ONLY used for code base upgrading, please do not do other works base on this environment.
 
+### Build All
 
-### Build GzOS
-
-```shell
-cd gzos_stable # (or cd gzos_dev)
-fx set gztee
-fx full-build
-```
-**Notes:** For now GzOS only can be used as an TEE OS and running in ARM TrustZone.
-In future, GzOS will support other execution environment, e.g. as a 
-lightweight passive hypervisor in ARMv8 EL2.
-
-### Clean Build
+#### GzOS
 
 ```shell
-fx clean-build gztee
+otg set gztee --ree linux # select GzOS as TEE OS and Linux as REE OS (default REE OS is Fuchsia)
+otg full-build [-c] # '-c': clean and build
 ```
-**Notes:** "fx clean build <project_name>" is equal to "fx set <project_name> && fx full-build"
-
-
-### Start QEMU
+#### Trusty TEE
 
 ```shell
-fx run-qemu
+otg set trusty # select Trusty as TEE OS (default REE OS is Linux)
+otg full-build [-c] # '-c': clean and build
 ```
 
-### Run CI test
+
+### Run On QEMU
+
+```shell
+otg run-qemu
+```
+
+### Run CI Test
 
 ```shell
  # run all test programs
-fx run-qemu -c all
+otg run-qemu -c all
 
 # run test programs matching the filter pattern
-fx run-qemu -c <filter pattern>
+otg run-qemu -c <filter pattern>
 
 # dump test logs after test finished
 cat <expect.log | serial0.log | serial1.log>
 ```
 
-### Show Backtrace
+### Show Backtrace (Only For GzOS)
 
 If kernel or application crashed, the following command can translate the backtrace raw info
 to show the corresponding source file and line number
 
 ```shell
-fx backtrace <log_file>
-```
-
-## Trusty Dev Environment Setup
-
-```shell
-# Check out source code
-curl -s https://raw.githubusercontent.com/OpenTrustGroup/scripts/gzos/bootstrap | bash -s trusty
-
-# Build Trusty
-cd trusty
-fx set arm64
-fx full-build
-
-# Start QEMU
-fx run-qemu
-
-# Run test
-fx run-qemu -c all
+otg backtrace [log_file]
 ```
